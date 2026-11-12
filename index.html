@@ -131,38 +131,7 @@
                 <span>15/11/2025 – 15/11/2026</span>
             </div>
 
-            <!-- Các nút chức năng -->
-            <div class="flex flex-wrap items-center gap-1.5 sm:gap-2">
-                <!-- Đổi ảnh nền -->
-                <label for="bg-file-input" class="cursor-pointer bg-pink-600 hover:bg-pink-500 active:scale-95 text-white px-3 py-1.5 rounded-xl text-xs sm:text-sm font-bold transition flex items-center gap-1.5 shadow-md border border-pink-300/40">
-                    <i class="fa-solid fa-image"></i>
-                    <span>Đổi ảnh nền</span>
-                </label>
-                <input type="file" id="bg-file-input" accept="image/*" class="hidden">
-
-                <!-- Khôi phục nền mặc định -->
-                <button id="btn-reset-bg" onclick="resetBackground()" title="Khôi phục nền mặc định" class="bg-rose-800/90 hover:bg-rose-700 active:scale-95 text-pink-100 px-2.5 py-1.5 rounded-xl text-xs sm:text-sm font-bold transition items-center gap-1 border border-pink-400/30 flex">
-                    <i class="fa-solid fa-rotate-left"></i>
-                    <span class="hidden md:inline">Nền gốc</span>
-                </button>
-
-                <!-- Bật / Lưu chỉnh sửa chữ -->
-                <button id="btn-edit-toggle" onclick="toggleEditMode()" class="bg-emerald-600 hover:bg-emerald-500 active:scale-95 text-white px-3 py-1.5 rounded-xl text-xs sm:text-sm font-bold transition flex items-center gap-1.5 shadow-md border border-rose-300/40">
-                    <i id="icon-edit-toggle" class="fa-solid fa-floppy-disk"></i>
-                    <span id="text-edit-toggle">Lưu nội dung</span>
-                </button>
-
-                <!-- Nhạc nền hộp nhạc -->
-                <button id="btn-music-toggle" onclick="toggleMusicBox()" class="bg-pink-800/90 hover:bg-pink-700 active:scale-95 text-pink-100 px-3 py-1.5 rounded-xl text-xs sm:text-sm font-bold transition flex items-center gap-1.5 border border-pink-400/40">
-                    <i id="icon-music" class="fa-solid fa-volume-xmark text-pink-300"></i>
-                    <span id="text-music">Nhạc nền: Tắt</span>
-                </button>
-
-                <!-- Đặt lại nội dung mặc định -->
-                <button onclick="openResetModal()" title="Đặt lại toàn bộ nội dung mặc định" class="bg-pink-950/90 hover:bg-pink-800 active:scale-95 text-pink-200 p-2 rounded-xl text-xs sm:text-sm transition border border-pink-400/30">
-                    <i class="fa-solid fa-arrows-rotate"></i>
-                </button>
-            </div>
+        
         </div>
     </header>
 
